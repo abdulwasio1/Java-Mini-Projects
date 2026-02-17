@@ -11,14 +11,20 @@ class BankAccount{
     private int transactionCount;
     private double feeCharges;
 
-    public BankAccount(String accountNumber, String accountHoldername, double balance, String accountType) {
+    public BankAccount(String accountNumber, String accountHoldername, double initialBalance, String accountType) {
         this.accountNumber = accountNumber;
         this.accountHoldername = accountHoldername;
-        this.balance = balance;
+        this.balance = initialBalance;
         this.accountType = accountType;
-        if (accountType=="Savings"){
-            this.balance = 500.0;
-        }else this.balance = 0.0;
+
+    }
+    void validateIsSaving(){
+        if (getAccountType().equals("Savings")){
+            if (this.balance<500){
+                System.out.println("Saving Account Balance can't be less than 500, deposit it");
+                this.balance=0;
+            }
+        }
     }
 
     public String getAccountType() {
@@ -120,8 +126,8 @@ public class Task5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // 1. Create savings and checking accounts
         BankAccount savings = new BankAccount("S001", "Alice", 1000, "Savings");
+        savings.validateIsSaving();
         BankAccount checking = new BankAccount("C001", "Alice", 500, "Checking");
 
         while (true) {
