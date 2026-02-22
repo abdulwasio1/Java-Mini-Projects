@@ -61,6 +61,6 @@ Java beginners learning OOP
 Understanding data structures
 Practice with user input handling
 
-More know: 
+More know: [https://medium.com/p/5f7471a41972]
 
 ### More projects will be added soon.
