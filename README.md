@@ -67,27 +67,27 @@ More know: [https://medium.com/p/5f7471a41972]
 A Java console app to track daily steps, workouts, calories, and weekly progress toward fitness goals.
 
 ## ✨ Features
-👣 Step Tracking – Add daily steps
-💪 Workout Logger – Log minutes & type (Running/Walking/Cycling/Swimming) → auto-calculates calories
-📅 Weekly Steps – Update steps for each day (0-6)
-🎯 Goal Setting – Set step & calorie goals
-📊 Progress % – See daily goal completion
-🏆 Goal Check – Know when you've achieved targets
-📈 Weekly Stats – Average steps + best day
-👥 Compare Users – See who's ahead
-🔄 Reset Daily – Start fresh each day
-📋 Full Report – View all stats in one place
+1. 👣 Step Tracking – Add daily steps
+2. 💪 Workout Logger – Log minutes & type (Running/Walking/Cycling/Swimming) → auto-calculates calories
+3. 📅 Weekly Steps – Update steps for each day (0-6)
+4. 🎯 Goal Setting – Set step & calorie goals
+5. 📊 Progress % – See daily goal completion
+6. 🏆 Goal Check – Know when you've achieved targets
+7. 📈 Weekly Stats – Average steps + best day
+8. 👥 Compare Users – See who's ahead
+9. 🔄 Reset Daily – Start fresh each day
+10. 📋 Full Report – View all stats in one place
 
 ## 🧱 Classes
-FitnessTracker – Core logic (steps, calories, goals, reports)
-Task6 – Main menu & user interaction
+1. FitnessTracker – Core logic (steps, calories, goals, reports)
+2. Main – Main menu & user interaction
 
 ## 🧮 Calories/min
-🏃 Running – 10
-🚶 Walking – 5
-🚴 Cycling – 8
-🏊 Swimming – 12
-🎯 Other – 6
+1. 🏃 Running – 10
+2. 🚶 Walking – 5
+3. 🚴 Cycling – 8
+4. 🏊 Swimming – 12
+5. 🎯 Other – 6
 
 ## 🖥️ Menu Options
 1. Add Steps
@@ -101,8 +101,8 @@ Task6 – Main menu & user interaction
 9. Exit
 
 ## ⚠️ Validation
-❌ No negative steps/minutes
-📆 Day index must be 0–6
-🧾 Clear error messages
+1. ❌ No negative steps/minutes
+2. 📆 Day index must be 0–6
+3. 🧾 Clear error messages
 
 ### More projects will be added soon.
